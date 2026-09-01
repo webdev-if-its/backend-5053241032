@@ -21,7 +21,7 @@ func ResolveNama(args []string, fallback string) string {
 // contoh: "Halo, Budi! Selamat datang di kelas Backend."
 // Baru diimplementasikan saat mengerjakan level 7-9, lihat SOAL.md.
 func Sapa(nama string) string {
-	return fmt.Sprintf("Halo, %s! Selamat datang di kelas Backend %s!", nama, nama)
+	return fmt.Sprintf("Halo, %s! Selamat datang di kelas Backend.", nama)
 }
 
 // TODO(Level 5): gabungkan Nama, NRP, dan hasil runtime.Version() jadi satu
