@@ -27,12 +27,12 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-01/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Danendra Nayottama Hadi
+- NRP: 5053241032
+- Kelas: M
 
 ## Commit vs Push
-(tulis di sini)
+Perbedaan commit dan push adalah, commit adalah fase atau tahapan dimana kode" yang telah di tulis sudah tersimpan dan siap di publish, namun push adalah proses mempublikasi update dan perubahan yang telah dilakukan
 
 ## Reproducibility
 (tulis di sini)
@@ -44,4 +44,4 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 (tulis di sini)
 
 ## Refleksi
-(tulis di sini)
+saya harusnya mengcommit setiap level yang saya telah kerjakan satu-satu, namun saya lupa dan akhirnya hanya mempunyai satu commit.
