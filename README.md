@@ -38,7 +38,7 @@ Perbedaan commit dan push adalah, commit adalah fase atau tahapan dimana kode" y
 Go lang memang bisa di run dari beberapa versi, namun dalam kasus tertentu tetap bisa menghasilkan error, seperti saat mengganti standard library. Kadang Standard Library yang digunakan tidak kompatibel dengan versi Go yang digunakan atau tidak ada di versi Go yang digunakan.
 
 ## Catatan Merge Conflict
-(tulis di sini)
+Terjadinya Merge Conflict pada fungsi Sapa(). Pada baris 24 di fungsi Sapa(), ada dua commit yang beda di dua branch yang berbeda, saat di merge ke main, terjadi merge conflict. Saya memutuskan untuk menyimpan hasil yang sudah ada di main.
 
 ## Kenapa .gitignore Penting
 (tulis di sini)
