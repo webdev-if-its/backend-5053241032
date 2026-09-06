@@ -35,7 +35,7 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 Perbedaan commit dan push adalah, commit adalah fase atau tahapan dimana kode" yang telah di tulis sudah tersimpan dan siap di publish, namun push adalah proses mempublikasi update dan perubahan yang telah dilakukan
 
 ## Reproducibility
-(tulis di sini)
+Go lang memang bisa di run dari beberapa versi, namun dalam kasus tertentu tetap bisa menghasilkan error, seperti saat mengganti standard library. Kadang Standard Library yang digunakan tidak kompatibel dengan versi Go yang digunakan atau tidak ada di versi Go yang digunakan.
 
 ## Catatan Merge Conflict
 (tulis di sini)
