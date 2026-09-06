@@ -41,7 +41,7 @@ Go lang memang bisa di run dari beberapa versi, namun dalam kasus tertentu tetap
 Terjadinya Merge Conflict pada fungsi Sapa(). Pada baris 24 di fungsi Sapa(), ada dua commit yang beda di dua branch yang berbeda, saat di merge ke main, terjadi merge conflict. Saya memutuskan untuk menyimpan hasil yang sudah ada di main.
 
 ## Kenapa .gitignore Penting
-(tulis di sini)
+Karena ada beberapa hal yang tidak boleh di share ke publik, seperti API keys dan  keperluan database.
 
 ## Refleksi
 saya harusnya mengcommit setiap level yang saya telah kerjakan satu-satu, namun saya lupa dan akhirnya hanya mempunyai satu commit.

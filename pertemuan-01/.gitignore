@@ -1,0 +1,8 @@
+# IDE Configs
+.vscode/
+.idea/
+
+# Build
+bin/
+*.exe
+*.out
