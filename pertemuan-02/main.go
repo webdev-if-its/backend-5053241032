@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // TODO(Level 1): lihat SOAL.md untuk kontrak lengkap tiap fungsi di bawah.
 // Ganti setiap "panic" dengan implementasi yang benar.
@@ -75,7 +77,13 @@ func TentukanStatus(total float64) string {
 }
 
 func RingkasanPesanan(qty []int, hargaSatuan []float64, tarifPajak float64) string {
-	panic("belum diimplementasikan")
+
+	var subTotalPesanan = HitungTotalPesanan(qty, hargaSatuan)
+	var nominalDiskon = HitungDiskon(subTotalPesanan)
+	var total = TotalSetelahDiskon(qty, hargaSatuan, tarifPajak)
+	var status = TentukanStatus(total)
+
+	return fmt.Sprintf("Subtotal= %.2f\nDiskon=%.2f\nTotal=%.2f\nStatus:%s\n", subTotalPesanan, nominalDiskon, total, status)
 }
 
 // TODO(Level 9): signature ini SUDAH benar (cari tahu sendiri kenapa
